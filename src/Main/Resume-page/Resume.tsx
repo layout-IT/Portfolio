@@ -1,12 +1,12 @@
 import React from "react";
 import {NavLink} from "react-router-dom";
 
-export function Portfolios() {
+export function Resume() {
     return (
         <div>
-            this is a Page Portfolios
+            this is a Page Resume
         </div>
     );
 }
 
-export default Portfolios;
+export default Resume;

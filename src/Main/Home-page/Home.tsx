@@ -1,10 +1,10 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import s from './Home.module.css'
 
 export function Home() {
     return (
-        <div>
-           this is a Page Home
+        <div className={s.wrapper}>
+           this is a  Home Page
         </div>
     );
 }
