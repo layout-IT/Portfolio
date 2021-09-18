@@ -5,7 +5,7 @@ import About from "./About-page/About";
 import Portfolios from "./Portfolios-page/Portfolios";
 import Contact from "./Contact-page/Contact";
 import Resume from "./Resume-page/Resume";
-import s from './Main.module.css'
+import s from './Main.module.scss'
 
 
 export function Main() {

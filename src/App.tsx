@@ -1,8 +1,8 @@
 import React from 'react';
-import './App.module.css';
+import './App.module.scss';
 import { Main } from './Main/Main';
 import Navbar from "./Navbar/Navbar";
-import s from './App.module.css'
+import s from './App.module.scss'
 import {useSelector} from "react-redux";
 
 function App() {
