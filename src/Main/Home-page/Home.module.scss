@@ -1,0 +1,154 @@
+.wrapper {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+
+
+}
+
+.name {
+  color: #037fff;
+  font-weight: 700;
+  font-size: 3.2857rem;
+  line-height: 4rem;
+}
+
+.title {
+  font-family: Nunito, sans-serif;
+  color: #fff;
+  font-size: 3.2857rem;
+  line-height: 4rem;
+  margin: 0 0 8px 0;
+  font-weight: 700;
+}
+
+.text {
+  color: #a4acc4;
+  margin: 20px 0 25px 0;
+  text-align: center;
+  font-size: 23px;
+  line-height: 2rem;
+  max-width: 856px;
+
+}
+
+.line {
+  background-color: rgba(164, 172, 196, 0.07);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+
+  &:nth-child(1) {
+    top: 0;
+    left: 30%;
+  }
+
+  &:nth-child(2) {
+    top: 0;
+    left: 48%;
+  }
+
+  &:nth-child(3) {
+    top: 0;
+    left: 66%;
+  }
+
+  &:nth-child(4) {
+    top: 0;
+    left: 85%;
+  }
+}
+
+svg {
+  path {
+    fill: #ffffff;
+
+  }
+
+  width: 40px;
+}
+
+.roundOnSvg {
+  width: 40px;
+  height: 10px;
+
+  background-color: white;
+}
+
+.container_span {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.container_span_svg {
+  background-color: rgba(255, 255, 255, 0.57);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  transition: all 0.3s ease;
+
+  &:last-child {
+    margin-right: 0;
+  }
+
+  svg {
+    path {
+      fill: black;
+    }
+
+    margin-right: 0;
+    width: 30px;
+  }
+
+  &:nth-child(1) {
+    svg {
+      width: 25px;
+
+    }
+  }
+
+  &:nth-child(2) {
+    svg {
+      width: 20px;
+
+    }
+  }
+
+  &:hover {
+
+    cursor: pointer;
+    //  transition: all 0.3s ease;
+    background-color: rgba(19, 21, 33, 0);
+
+    svg {
+      path {
+        fill: white;
+        transition: all 1s ease;
+      }
+    }
+  }
+
+  &:active {
+    svg {
+      path {
+        fill: #037fff;
+        transition: none;
+      }
+    }
+  }
+
+}
+
+.about_meButton{
+
+}

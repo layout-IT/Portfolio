@@ -1,10 +1,10 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import s from './Portfolios.module.scss'
 
 export function Portfolios() {
     return (
-        <div>
-            this is a Page Portfolios
+        <div className={s.wrapper}>
+
         </div>
     );
 }

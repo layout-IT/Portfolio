@@ -14,7 +14,7 @@ export function Navbar() {
             </div>
 
             <div className={s.items}>
-                <NavLink to={'/home'} activeClassName={s.ChangeColorOnBlue} className={s.item}>
+                <NavLink to={'/home'} aria-current={true}  activeClassName={s.ChangeColorOnBlue} className={s.item}>
                     <span className={s.item_link}>HOME</span>
                 </NavLink>
                 <NavLink to={'/about'} activeClassName={s.ChangeColorOnBlue } className={s.item}><span className={s.item_link}>ABOUT</span></NavLink>

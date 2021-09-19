@@ -1,6 +1,8 @@
 
 .Wrapper {
+ // position: fixed;
   background-color: #1c2032;
+  //width: 17%;
   height: 100vh;
   border-right: 1px solid #2e344e;
   display: flex;
@@ -16,7 +18,8 @@
 }
 
 .item {
-  margin: 0 0 15px 0;
+  margin: 0 0 30px 0;
+  letter-spacing: 1px;
   cursor: pointer;
   padding: 5px 0;
   position: relative;
@@ -43,7 +46,7 @@
 .item_link {
   color: #a4acc4;
   font-family: Nunito, sans-serif;
-  font-size: 13px;
+  font-size: 18px;
   font-weight: 500;
 
   &:after {
@@ -88,7 +91,8 @@
 .photo {
   width: 80%;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 40px 0 20px 0;
+
 }
 
 img {
@@ -96,16 +100,17 @@ img {
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+  box-shadow: 0 1px 1px 5px #424865;;
 }
 
 .Footer {
-  border-top: 1px solid #2e344e;
+  border-top: 1px solid #363c58;
   font-size: 12px;
   color: #a4acc4;;
   padding: 15px 0;
 }
 
 .Container {
-  border-bottom: 1px solid #2e344e;
+  border-bottom: 1px solid #363c58;
 }
 
