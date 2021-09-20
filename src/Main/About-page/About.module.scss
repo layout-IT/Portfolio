@@ -1,32 +1,17 @@
-.line {
-  background-color: rgba(164, 172, 196, 0.07);
-  width: 1px;
+
+.mainWrapper {
+  background-color: #131521;
+  position: relative;
+  width: 100%;
   height: 100%;
-  position: absolute;
 
-  &:nth-child(1) {
-    top: 0;
-    left: 30%;
-  }
-
-  &:nth-child(2) {
-    top: 0;
-    left: 48%;
-  }
-
-  &:nth-child(3) {
-    top: 0;
-    left: 66%;
-  }
-
-  &:nth-child(4) {
-    top: 0;
-    left: 85%;
-  }
 }
 
 .about_me {
-  padding: 0 70px;
+  padding: 0 70px 50px 70px;
+  height: 100%;
+  z-index: 999;
+  position: relative;
 }
 
 .title_block {
@@ -99,6 +84,49 @@
   flex: 0 1 49%;
   width: 100%;
   height: 100%;
+  transition: all 1s ease;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Media_Viewer_Icon_-_Zoom_In.svg/1200px-Media_Viewer_Icon_-_Zoom_In.svg.png");
+    background-repeat: no-repeat;
+    background-size: 1px 1px;
+    background-position: 0px 0px;
+  }
+
+  &:hover {
+    &::before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 100px;
+      height: 100px;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Media_Viewer_Icon_-_Zoom_In.svg/1200px-Media_Viewer_Icon_-_Zoom_In.svg.png");
+      background-repeat: no-repeat;
+      background-size: 60px 60px;
+      background-position: 0px 0px;
+      transition: all 1s ease;
+      transform: scale(2);
+      opacity: 0.5;
+    }
+  }
+
+  &:active {
+    transform: scale(1.5);
+
+    &:hover {
+      &::before {
+        opacity: 0;
+      }
+    }
+  }
 }
 
 .about_mePhotoImg {
@@ -120,23 +148,153 @@
   color: #a4acc4;
   line-height: 2.7rem;
   display: flex;
-  margin-bottom:30px ;
+  margin-bottom: 30px;
 }
 
-.about_meListTextLeft {
-  margin-right: 15px;
+.about_meListLists {
+  width: 100%;
 }
 
-.about_meButton{
+.about_meListText {
+  display: flex;
+  font-size: 22px;
+  width: 100%;
+  justify-content: space-between;
+
+  span {
+    &:nth-child(1) {
+      flex: 0 1 50%;
+    }
+
+    &:nth-child(2) {
+      flex: 0 1 100%;
+    }
+  }
+}
+
+
+.about_meButton {
+  transition: all 0.3s ease;
   background-color: #037fff;
   padding: 20px 30px;
+
+  &:hover {
+
+    box-shadow: 10px 15px 10px rgba(3, 127, 255, 0.65);
+
+  }
+
+  &:active {
+    margin-top: 5px;
+    box-shadow: 5px 10px 10px rgba(3, 127, 255, 0.65);
+  }
 }
 
-.about_meUttonLink{
+.about_meUttonLink {
   height: 100%;
   font-size: 18px;
   font-family: Nunito, sans-serif;
   color: white;
   letter-spacing: 3px;
 
+}
+
+.Services {
+  padding: 0 70px 120px 70px;
+  z-index: 999;
+  position: relative;
+}
+
+.Services_items {
+  display: flex;
+  margin: 0 -10px;
+  flex-wrap: wrap;
+
+}
+
+.Services_column {
+  flex: 0 1 33.333%;
+  padding: 0 10px;
+
+}
+
+.Services_item {
+  padding: 30px;
+  height: 100%;
+  border: 1px solid #2e344e;
+  border-top: 5px solid #2e344e;
+  padding: 30px;
+  background: #191d2b;
+  transition: all .4s ease-out;
+
+  &:hover {
+    border-top: 5px solid #037fff;
+  }
+
+  svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 25px;
+
+    path {
+      fill: #037fff;
+    }
+  }
+
+}
+
+.Services_itemTitle {
+  font-size: 1.43rem;
+  line-height: 2.14rem;
+  color: white;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+
+}
+
+.Services_itemText {
+  font-family: Nunito, sans-serif;
+  color: #a4acc4;
+  flex-wrap: wrap;
+  line-height: 25px;
+}
+
+.Services_itemStripe {
+  height: 2px;
+  width: 50px;
+  background: #ffffff;
+  margin-bottom: 25px;
+}
+
+
+
+
+.line {
+  background-color: rgba(164, 172, 196, 0.07);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+  &:nth-child(1) {
+    top: 0;
+    left: 20%;
+  }
+
+  &:nth-child(2) {
+    top: 0;
+    left: 40%;
+  }
+
+  &:nth-child(3) {
+    top: 0;
+    left: 60%;
+  }
+
+  &:nth-child(4) {
+    top: 0;
+    left: 80%;
+  }
 }

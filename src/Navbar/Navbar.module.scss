@@ -1,6 +1,6 @@
 
 .Wrapper {
- // position: fixed;
+  position: fixed;
   background-color: #1c2032;
   //width: 17%;
   height: 100vh;
@@ -20,7 +20,7 @@
 .item {
   letter-spacing: 1px;
   cursor: pointer;
-  padding: 5px 0;
+  padding: 15px 0;
   position: relative;
 
   &:hover {
@@ -67,7 +67,6 @@
 .ChangeColorOnBlue {
   background-color: #037fff;
   cursor: pointer;
-  padding: 5px 0;
   position: relative;
   color: white;
 
@@ -110,5 +109,6 @@ img {
 
 .Container {
   border-bottom: 1px solid #363c58;
+  padding: 0 13px;
 }
 

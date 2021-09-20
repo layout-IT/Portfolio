@@ -6,8 +6,41 @@
   justify-content: center;
   width: 100%;
   height: 100vh;
+  position: relative;
 
 
+}
+
+
+
+.line {
+  background-color: rgba(164, 172, 196, 0.07);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+  &:nth-child(1) {
+    top: 0;
+    left: 20%;
+  }
+
+  &:nth-child(2) {
+    top: 0;
+    left: 40%;
+  }
+
+  &:nth-child(3) {
+    top: 0;
+    left: 60%;
+  }
+
+  &:nth-child(4) {
+    top: 0;
+    left: 80%;
+  }
 }
 
 .name {
@@ -24,6 +57,7 @@
   line-height: 4rem;
   margin: 0 0 8px 0;
   font-weight: 700;
+  text-align: center;
 }
 
 .text {
@@ -36,32 +70,7 @@
 
 }
 
-.line {
-  background-color: rgba(164, 172, 196, 0.07);
-  width: 1px;
-  height: 100%;
-  position: absolute;
 
-  &:nth-child(1) {
-    top: 0;
-    left: 30%;
-  }
-
-  &:nth-child(2) {
-    top: 0;
-    left: 48%;
-  }
-
-  &:nth-child(3) {
-    top: 0;
-    left: 66%;
-  }
-
-  &:nth-child(4) {
-    top: 0;
-    left: 85%;
-  }
-}
 
 svg {
   path {

@@ -13,6 +13,12 @@ export function Main() {
 
         <div className={s.Main_wrapper}>
             <Redirect to={'/home'}/>
+            <div className={s.lineWrapper}>
+                <span className={s.line}></span>
+                <span className={s.line}></span>
+                <span className={s.line}></span>
+                <span className={s.line}></span>
+            </div>
             <Route path='/home' render={() => <Home/>}/>
             <Route path='/about' render={() => <About/>}/>
             <Route path='/resume' render={() => <Resume/>}/>
