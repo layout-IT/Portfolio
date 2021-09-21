@@ -1,0 +1,187 @@
+.wrapperResume {
+  width: 100%;
+  height: 100%;
+  padding: 0 70px 0px 70px;
+  position: relative;
+  background-color: #131521;
+}
+
+.line {
+  background-color: rgba(164, 172, 196, 0.07);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+  &:nth-child(1) {
+    top: 0;
+    left: 20%;
+  }
+
+  &:nth-child(2) {
+    top: 0;
+    left: 40%;
+  }
+
+  &:nth-child(3) {
+    top: 0;
+    left: 60%;
+  }
+
+  &:nth-child(4) {
+    top: 0;
+    left: 80%;
+  }
+}
+
+
+.my_skills {
+  font-family: Nunito, sans-serif;
+  color: #fff;
+  height: 200px;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+
+  li {
+    position: absolute;
+
+    &:nth-child(1) {
+      top: 0%;
+      left: 5%;
+    }
+
+    &:nth-child(2) {
+      top: 80%;
+      left: 80%;
+    }
+
+    &:nth-child(3) {
+      top: 40%;
+      left: 12%;
+    }
+
+    &:nth-child(4) {
+      top: 0%;
+      left: 20%;
+    }
+
+    &:nth-child(5) {
+      top: 0%;
+      left: 40%;
+    }
+
+    &:nth-child(6) {
+      top: 0%;
+      left: 60%;
+    }
+
+    &:nth-child(7) {
+      top: 0%;
+      left: 80%;
+    }
+
+    &:nth-child(8) {
+      top: 0%;
+      left: 95%;
+    }
+
+    &:nth-child(9) {
+      top: 40%;
+      left: 32%;
+    }
+
+    &:nth-child(10) {
+      top: 40%;
+      left: 52%;
+    }
+
+    &:nth-child(11) {
+      top: 40%;
+      left: 72%;
+    }
+
+    &:nth-child(12) {
+      top: 40%;
+      left: 90%;
+    }
+
+    &:nth-child(13) {
+      top: 80%;
+      left: 22%;
+    }
+
+    &:nth-child(14) {
+      top: 80%;
+      left: 44%;
+    }
+
+    &:nth-child(15) {
+      top: 80%;
+      left: 65%;
+    }
+  }
+}
+
+
+.workingExperience {
+  display: flex;
+  margin: 0 0 50px 0;
+
+  svg {
+    margin-right: 10px;
+  }
+}
+
+.workingExperience_title {
+  font-family: Nunito, sans-serif;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.listItem {
+  display: flex;
+  padding: 10px 0 50px 20px;
+  width: 100%;
+  height: 100%;
+  border-left: 3px solid #a4acc4;
+
+}
+
+.listItemLeft {
+  color: #a4acc4;
+  font-size: 23px;
+  flex: 0 1 25%;
+}
+
+.listItemRight {
+  flex: 0 1 75%;
+}
+
+
+.listItemRight_title {
+  color: #037fff;
+  font-size: 26px;
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 4px;
+    width: 30px;
+    background: #ffffff;
+  }
+}
+
+.listItemRight_text {
+  color: #a4acc4;
+  font-size: 23px;
+  line-height: 35px;
+}

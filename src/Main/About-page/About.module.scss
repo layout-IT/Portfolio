@@ -26,7 +26,11 @@
   font-size: 3rem;
   line-height: 2.7rem;
   padding: 120px 0 20px 0;
+  text-shadow: 50px 75px 0px rgba(41, 47, 64, 0.3), -1px -1px 0.5em rgb(143, 196, 229);
+
 }
+
+
 
 .title_block_dash {
   width: 120px;
@@ -34,6 +38,7 @@
   background-color: rgba(3, 127, 255, 0.57);
   border-radius: 20px;
   position: relative;
+
 
   &::before {
     content: '';
@@ -229,7 +234,7 @@
 
   &:hover {
     border-top: 5px solid #037fff;
-  }
+    }
 
   svg {
     width: 40px;
