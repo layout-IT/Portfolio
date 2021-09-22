@@ -74,12 +74,15 @@ h6 {
 
 .App {
   display: flex;
+  justify-content: space-between;
 
 }
 
 .Navbar{
   flex: 0 1 17%;
   text-align: center;
+  background-color: #ffffff;
+
 }
 
 .Main{

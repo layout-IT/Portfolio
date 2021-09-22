@@ -1,4 +1,148 @@
-.wrapper{
-    color: white;
 
+.portfolioWrapper {
+  background-color: #131521;
+  width: 100%;
+  height: 100%;
+
+}
+
+.portfolioWrapper_container {
+  padding: 0 70px 50px 70px;
+  height: 100%;
+  z-index: 999;
+  position: relative;
+}
+
+.line {
+  background-color: rgba(46, 52, 78, 0.43);
+  width: 1px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+
+
+  &:nth-child(1) {
+    top: 0;
+    left: 20%;
+  }
+
+  &:nth-child(2) {
+    top: 0;
+    left: 40%;
+  }
+
+  &:nth-child(3) {
+    top: 0;
+    left: 60%;
+  }
+
+  &:nth-child(4) {
+    top: 0;
+    left: 80%;
+  }
+}
+
+.portfolioWrapper_general {
+  position: relative;
+  z-index: 999;
+}
+
+.portfolio_items {
+  display: flex;
+  margin: -30px -15px;
+  flex-wrap: wrap;
+}
+
+.portfolio_colums {
+  flex: 0 1 33.333%;
+
+  padding: 30px 15px;
+}
+
+.portfolio_item {
+  height: 100%;
+}
+
+.portfolioItem_img {
+  margin-bottom: 20px;
+  height: 100%;
+  max-height: 357px;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    opacity: 0;
+  }
+
+  &:hover {
+    cursor: pointer;
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.71);
+      transition: all 1s ease;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      transition: all 1.2s ease;
+      background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Echo_link-blue_icon_slanted.svg/1200px-Echo_link-blue_icon_slanted.svg.png");
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: 50px;
+      opacity: 1;
+    }
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    object-fit: cover;
+  }
+}
+
+.portfolioItem_title {
+  font-family: Nunito, sans-serif;
+  color: #fff;
+  font-size: 35px;
+  flex-wrap: wrap;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.portfolioItem_subtitle {
+  font-family: Nunito, sans-serif;
+  font-size: 23px;
+  color: #a4acc4;
+  flex-wrap: wrap;
+  line-height: 35px;
 }

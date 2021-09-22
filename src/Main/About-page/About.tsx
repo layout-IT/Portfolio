@@ -5,10 +5,10 @@ export function About() {
     return (
         <div className={s.mainWrapper}>
 
-                <span className={s.line}></span>
-                <span className={s.line}></span>
-                <span className={s.line}></span>
-                <span className={s.line}></span>
+            <span className={s.line}></span>
+            <span className={s.line}></span>
+            <span className={s.line}></span>
+            <span className={s.line}></span>
 
 
             <div className={s.about_me}>
@@ -49,15 +49,12 @@ export function About() {
                                 </li>
                                 <li className={s.about_meListText}><span>Freelance</span><span>: Available</span></li>
                             </ul>
-
-
                         </div>
-
-
-                        <button className={s.about_meButton}>
-                            <a className={s.about_meUttonLink} target={'_blank'} href="https://yandex.ru">
-                                DOWNLOAD CV</a>
-                        </button>
+                        <a className={s.about_meUttonLink} target={'_blank'} href="https://yandex.ru">
+                            <button className={s.about_meButton}>
+                                DOWNLOAD CV
+                            </button>
+                        </a>
                     </div>
                 </div>
 
