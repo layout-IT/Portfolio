@@ -3,6 +3,7 @@
   margin: 0px;
   border: 0px;
 }
+
 *,
 *:before,
 *:after {
@@ -10,14 +11,17 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 :focus,
 :active {
   outline: none;
 }
+
 a:focus,
 a:active {
   outline: none;
 }
+
 aside,
 nav,
 footer,
@@ -25,10 +29,12 @@ header,
 section {
   display: block;
 }
+
 html,
 body {
   height: 100%;
 }
+
 body {
   line-height: 1;
   //text-rendering: optimizeLegibility;
@@ -36,32 +42,39 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 input,
 button,
-
 input::-ms-clear {
   display: none;
 }
+
 button {
   cursor: pointer;
 }
+
 button::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
+
 a,
 a:visited {
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: none;
 }
+
 ul li {
   list-style: none;
 }
+
 img {
   vertical-align: top;
 }
+
 h1,
 h2,
 h3,
@@ -75,18 +88,38 @@ h6 {
 .App {
   display: flex;
   justify-content: space-between;
+  height: 100%;
 
 }
 
-.Navbar{
+.Navbar {
   flex: 0 1 17%;
   text-align: center;
-  background-color: #ffffff;
+  background-color: #131521;
+
+  @media (max-width: 1658px) {
+    flex: 0 1 19%;
+  }
+  @media (max-width: 1423px) {
+    flex: 0 1 22%;
+  }
+  @media (max-width: 1330px) {
+    flex: 0;
+  }
 
 }
 
-.Main{
+.Main {
   flex: 0 1 83%;
   background-color: #131521;
   height: 100vh;
+  @media (max-width: 1658px) {
+    flex: 0 1 81%;
+  }
+  @media (max-width: 1423px) {
+    flex: 0 1 78%;
+  }
+  @media (max-width: 1330px) {
+    flex: 0 1 100%;
+  }
 }

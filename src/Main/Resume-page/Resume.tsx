@@ -16,23 +16,151 @@ export function Resume() {
                     <div className={s.title_block_heading}>MY SKILLS</div>
                     <div className={s.title_block_dash}></div>
                 </div>
-                <ul className={style.my_skills}>
-                    <li>REACT</li>
-                    <li>REDUX</li>
-                    <li>TypeScript</li>
-                    <li>HTML5</li>
-                    <li>Unit Tests</li>
-                    <li>AXIOS</li>
-                    <li>REST</li>
-                    <li>CSS3</li>
-                    <li>StoryBook</li>
-                    <li>Material UI</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                    <li>Ant Design</li>
-                    <li>JavaScript</li>
-                    <li>GitHub</li>
-                </ul>
+                <div className={style.my_skills}>
+                    <div className={style.my_skillsItems}>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        REACT
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        REDUX
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        JavaScript
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        TypeScript
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        HTML5
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        CSS3
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        AXIOS
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        REST
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        Unit Tests
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        StoryBook
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        Material UI
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        Ant Design
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        Git
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className={style.my_skillsColimn}>
+                            <div className={style.my_skillsItem}>
+                                <div className={style.my_skillsItem_conteiner}>
+                                    <div className={style.my_skillsItem_text}>
+                                        GitHub
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
             </div>
             <div className={style.resume_block}>
                 <div className={s.title_block}>

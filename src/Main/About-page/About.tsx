@@ -45,7 +45,7 @@ export function About() {
                                 <li className={s.about_meListText}><span>Nationality</span><span>: American</span></li>
                                 <li className={s.about_meListText}><span>Languages</span><span>: English, French</span>
                                 </li>
-                                <li className={s.about_meListText}><span>Address</span><span>: 121 King Street, Melbourne, Australia rgrege</span>
+                                <li className={s.about_meListText}><span>Address</span><span>: 121 King Street, Melbourne, Australia</span>
                                 </li>
                                 <li className={s.about_meListText}><span>Freelance</span><span>: Available</span></li>
                             </ul>
