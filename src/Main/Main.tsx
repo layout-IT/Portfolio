@@ -13,7 +13,10 @@ export function Main() {
 
         <div className={s.Main_wrapper}>
             <Redirect to={'/home'}/>
+
             <div className={s.lineWrapper}>
+
+
                 <span className={s.line}></span>
                 <span className={s.line}></span>
                 <span className={s.line}></span>

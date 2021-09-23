@@ -26,9 +26,9 @@ export function Portfolios() {
                     <div className={style.portfolio_items}>
                         <div className={style.portfolio_colums}>
                             <div className={style.portfolio_item}>
-                                <div className={style.portfolioItem_img}>
+                                <a className={style.portfolioItem_img} href={'https://yandex.ru/'} target={'_blank'}>
                                     <img src={photo} alt="photo"/>
-                                </div>
+                                </a>
                                 <div className={style.portfolioItem_title}>T-shirt Mockup</div>
                                 <div className={style.portfolioItem_subtitle}>A beautiful t-shirt mockup.</div>
 
@@ -36,9 +36,9 @@ export function Portfolios() {
                         </div>
                         <div className={style.portfolio_colums}>
                             <div className={style.portfolio_item}>
-                                <div className={style.portfolioItem_img}>
+                                <a className={style.portfolioItem_img} href={'https://yandex.ru/'} target={'_blank'}>
                                     <img src={photo2} alt="photo"/>
-                                </div>
+                                </a>
                                 <div className={style.portfolioItem_title}>T-shirt Mockup</div>
                                 <div className={style.portfolioItem_subtitle}>A beautiful t-shirt mockup.</div>
 
@@ -46,9 +46,9 @@ export function Portfolios() {
                         </div>
                         <div className={style.portfolio_colums}>
                             <div className={style.portfolio_item}>
-                                <div className={style.portfolioItem_img}>
+                                <a className={style.portfolioItem_img} href={'https://yandex.ru/'} target={'_blank'}>
                                     <img src={photo3} alt="photo"/>
-                                </div>
+                                </a>
                                 <div className={style.portfolioItem_title}>T-shirt Mockup</div>
                                 <div className={style.portfolioItem_subtitle}>A beautiful t-shirt mockup.</div>
 
@@ -56,9 +56,9 @@ export function Portfolios() {
                         </div>
                         <div className={style.portfolio_colums}>
                             <div className={style.portfolio_item}>
-                                <div className={style.portfolioItem_img}>
+                                <a className={style.portfolioItem_img} href={'https://yandex.ru/'} target={'_blank'}>
                                     <img src={photo2} alt="photo"/>
-                                </div>
+                                </a>
                                 <div className={style.portfolioItem_title}>T-shirt Mockup</div>
                                 <div className={style.portfolioItem_subtitle}>A beautiful t-shirt mockup.</div>
 
@@ -66,9 +66,9 @@ export function Portfolios() {
                         </div>
                         <div className={style.portfolio_colums}>
                             <div className={style.portfolio_item}>
-                                <div className={style.portfolioItem_img}>
+                                <a className={style.portfolioItem_img} href={'https://yandex.ru/'} target={'_blank'}>
                                     <img src={photo3} alt="photo"/>
-                                </div>
+                                </a>
                                 <div className={style.portfolioItem_title}>T-shirt Mockup</div>
                                 <div className={style.portfolioItem_subtitle}>A beautiful t-shirt mockup.</div>
 
@@ -76,9 +76,9 @@ export function Portfolios() {
                         </div>
                         <div className={style.portfolio_colums}>
                             <div className={style.portfolio_item}>
-                                <div className={style.portfolioItem_img}>
+                                <a className={style.portfolioItem_img} href={'https://yandex.ru/'} target={'_blank'}>
                                     <img src={photo} alt="photo"/>
-                                </div>
+                                </a>
                                 <div className={style.portfolioItem_title}>T-shirt Mockup</div>
                                 <div className={style.portfolioItem_subtitle}>A beautiful t-shirt mockup.</div>
 
@@ -86,8 +86,6 @@ export function Portfolios() {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         </div>
     );

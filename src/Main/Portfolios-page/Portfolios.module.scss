@@ -80,6 +80,8 @@
   display: flex;
   flex-direction: column;
   height: 100%;
+  background-color: #1c2032;
+  padding: 10px;
 }
 
 .portfolioItem_img {
@@ -88,6 +90,8 @@
   max-height: 357px;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+  z-index: 30;
 
   &::before {
     content: '';
@@ -107,10 +111,10 @@
     width: 50%;
     height: 100%;
     opacity: 0;
+
   }
 
   &:hover {
-    cursor: pointer;
 
     &::before {
       content: '';
@@ -136,6 +140,7 @@
       background-repeat: no-repeat;
       background-size: 50px;
       opacity: 1;
+      z-index: 10;
     }
   }
 
@@ -154,7 +159,7 @@
   font-size: 35px;
   flex-wrap: wrap;
   font-weight: 600;
-  margin-bottom: 20px;
+
   @media (max-width: 1670px) {
     font-size: 28px;
   }
