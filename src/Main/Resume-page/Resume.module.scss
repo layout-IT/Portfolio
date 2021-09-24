@@ -50,28 +50,173 @@
   position: relative;
 }
 
-.my_skillsItems{
-  height: 100%;
-  display: flex;
-  margin: -15px -15px;
-  flex-wrap: wrap;
+.my_skillsItem_containers {
+
+  &:last-child {
+    margin: 0;
+  }
+
+  &:nth-child(3) {
+    top: 40px;
+  }
 }
-.my_skillsColimn{
-  height: 100%;
-  padding: 15px 15px;
-  flex: 0 1 20%;
+
+
+.my_skillsItem_circle {
+  font-family: Nunito, sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  position: relative;
+  margin: 0 0 25px 0px;
+  letter-spacing: 4px;
+  transition: all 0.3s ease;
+
+  &:nth-child(1) {
+    animation: anime 1.5s linear;
+
+    span {
+      svg {
+        path {
+          fill: #0090e3
+        }
+
+        animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 0s;
+      }
+    }
+  }
+
+  &:nth-child(2) {
+    animation: anime 2.5s linear;
+
+    span {
+      svg {
+        path {
+          fill: #0090e3
+        }
+
+        animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 1s;
+      }
+    }
+  }
+
+  &:nth-child(3) {
+    animation: anime 3.5s linear;
+
+    span {
+      svg {
+        path {
+          fill: #0090e3
+        }
+
+        animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 2s;
+      }
+    }
+  }
+
+  &:nth-child(4) {
+    animation: anime 4.5s linear;
+
+    span {
+      svg {
+        path {
+          fill: #0090e3
+        }
+
+        animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 3s;
+      }
+    }
+  }
+
+  &:nth-child(5) {
+    animation: anime 5.5s linear;
+
+    span {
+      svg {
+        path {
+          fill: #0090e3
+        }
+
+        animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 4s;
+      }
+    }
+  }
+
+  &:nth-child(6) {
+    animation: anime 6.5s linear;
+
+    span {
+      svg {
+        path {
+          fill: #0090e3
+        }
+
+        animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 5s;
+      }
+
+    }
+
+  }
+
+  &:nth-child(7) {
+    animation: anime 7.5s linear;
+
+    span {
+      svg {
+        path {
+          fill: #0090e3
+        }
+
+        animation: roll-in-blurred-left 2s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 6s;
+      }
+    }
+  }
 }
-.my_skillsItem{
-  border: 1px solid #2e344e;
-  padding: 30px;
+
+@keyframes anime {
+  0% {
+    color: #868c9c;
+    opacity: 0;
+  }
+  90% {
+    color: #868c9c;
+    opacity: 0.7;
+  }
+  100% {
+    color: #0090e3;
+  }
+}
+
+.my_skillsItem_circleImg {
+  margin-right: 15px;
+
+  svg {
+    width: 30px;
+  }
+}
+
+
+@keyframes roll-in-blurred-left {
+  0% {
+    -webkit-transform: translateX(-1000px) rotate(-720deg);
+    transform: translateX(-1000px) rotate(-720deg);
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0) rotate(360deg);
+    transform: translateX(0) rotate(360deg);
+    -webkit-filter: blur(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+.slash {
+  color: #0090e3;
 
 }
-.my_skillsItem_conteiner{
 
-}
-.my_skillsItem_text{
-
-}
 
 .workingExperience {
   display: flex;
@@ -107,7 +252,7 @@
   padding: 10px 0 0px 20px;
   width: 100%;
   height: 100%;
-justify-content: space-between;
+  justify-content: space-between;
   margin-bottom: 20px;
   @media (max-width: 510px) {
     display: block;

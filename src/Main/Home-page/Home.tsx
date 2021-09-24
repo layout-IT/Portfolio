@@ -1,9 +1,13 @@
 import React from "react";
 import s from './Home.module.scss'
 
+
 export function Home() {
+
     return (
         <div className={s.wrapper}>
+
+
             <div className={s.wrapperContainer}>
                 <span className={s.line}></span>
                 <span className={s.line}></span>

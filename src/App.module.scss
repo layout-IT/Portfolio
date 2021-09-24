@@ -93,16 +93,17 @@ h6 {
 }
 
 .Navbar{
-  flex: 0 1 17%;
+  flex: 0 1 0%;
   text-align: center;
   background-color: #131521;
 }
 
 .Main{
-  flex: 0 1 83%;
-  background-color: #131521;
+  flex: 0 1 100%;
+ // background-color: #131521;
   height: 100vh;
-  backdrop-filter: blur(2px);
+  opacity: 0.3;
+  transition: all 0.3s ease;
 }
 
 .NavbarFalse {
@@ -124,7 +125,7 @@ h6 {
 
 .MainFalse {
   flex: 0 1 83%;
-  background-color: #131521;
+ // background-color: #131521;
   height: 100vh;
 
   @media (max-width: 1658px) {

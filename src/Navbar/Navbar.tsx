@@ -11,11 +11,9 @@ type NavbarType = {
 export function Navbar(props: NavbarType) {
 
     return (
-        <div className={props.active ? s.WrapperFAlse : 's.Wrapper'}>
-            <div onClick={() => {
-                props.setActive(false)
-            }} className={props.active ? s.icon_menuContainer : s.icon_menuContainerFalse}>
-                <div className={props.active ? s.icon_menu : s.icon_menuFalse}>
+        <div className={!props.active ? s.WrapperFAlse : s.Wrapper }>
+            <div onClick={() => {props.setActive(!props.active)}} className={s.icon_menuContainer}>
+                <div className={!props.active ? s.icon_menu: s.icon_menuFalse }>
                     <span></span>
                     <span></span>
                     <span></span>
@@ -27,11 +25,11 @@ export function Navbar(props: NavbarType) {
                 </div>
             </div>
 
-            <div className={s.items} onClick={ e => e.stopPropagation()}>
+            <div className={s.items}>
                 <NavLink to={'/home'} aria-current={true} activeClassName={s.ChangeColorOnBlue} className={s.item}>
                     <span className={s.item_link}>HOME</span>
                 </NavLink>
-                <NavLink to={'/about'} activeClassName={s.ChangeColorOnBlue} className={s.item}><span
+                <NavLink to={'/about'} activeClassName={s.ChangeColorOnBlue } className={s.item}><span
                     className={s.item_link}>ABOUT</span></NavLink>
                 <NavLink to={'/resume'} activeClassName={s.ChangeColorOnBlue} className={s.item}><span
                     className={s.item_link}>RESUME</span></NavLink>
