@@ -17,110 +17,38 @@ export function Resume() {
                     <div className={s.title_block_heading}>MY SKILLS</div>
                     <div className={s.title_block_dash}></div>
                 </div>
-                <div className={style.my_skills}>
-                    <ul className={style.my_skillsItem_containers}>
-                        <li className={style.my_skillsItem_circle}>
-                             <span className={style.my_skillsItem_circleImg}>
-                                <svg aria-hidden="true" focusable="false"
-                                     data-prefix="far"
-                                     data-icon="check-circle" role="img"
-                                     xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 512 512"
-                                     className="svg-inline--fa fa-check-circle fa-w-16 fa-5x"><path
-                                    fill="currentColor"
-                                    d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"
-                                    className=""></path></svg>
-                            </span>
-                            REACT <span className={style.slash}>/</span> REDUX
-                        </li>
-                        <li className={style.my_skillsItem_circle}>
-                            <span className={style.my_skillsItem_circleImg}>
-                                <svg aria-hidden="true" focusable="false"
-                                                                                 data-prefix="far"
-                                                                                 data-icon="check-circle" role="img"
-                                                                                 xmlns="http://www.w3.org/2000/svg"
-                                                                                 viewBox="0 0 512 512"
-                                                                                 className="svg-inline--fa fa-check-circle fa-w-16 fa-5x"><path
-                                fill="currentColor"
-                                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"
-                                className=""></path></svg>
-                            </span>
-                            HTML5 <span className={style.slash}>/</span> CSS3
-                        </li>
-                        <li className={style.my_skillsItem_circle}>
-                             <span className={style.my_skillsItem_circleImg}>
-                                <svg aria-hidden="true" focusable="false"
-                                     data-prefix="far"
-                                     data-icon="check-circle" role="img"
-                                     xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 512 512"
-                                     className="svg-inline--fa fa-check-circle fa-w-16 fa-5x"><path
-                                    fill="currentColor"
-                                    d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"
-                                    className=""></path></svg>
-                            </span>
-                            JavaScript <span className={style.slash}>/</span> TypeScript</li>
-                        <li className={style.my_skillsItem_circle}>
-                             <span className={style.my_skillsItem_circleImg}>
-                                <svg aria-hidden="true" focusable="false"
-                                     data-prefix="far"
-                                     data-icon="check-circle" role="img"
-                                     xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 512 512"
-                                     className="svg-inline--fa fa-check-circle fa-w-16 fa-5x"><path
-                                    fill="currentColor"
-                                    d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"
-                                    className=""></path></svg>
-                            </span>
-                            AXIOS <span className={style.slash}>/</span> REST</li>
-                        <li className={style.my_skillsItem_circle}>
-                             <span className={style.my_skillsItem_circleImg}>
-                                <svg aria-hidden="true" focusable="false"
-                                     data-prefix="far"
-                                     data-icon="check-circle" role="img"
-                                     xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 512 512"
-                                     className="svg-inline--fa fa-check-circle fa-w-16 fa-5x"><path
-                                    fill="currentColor"
-                                    d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"
-                                    className=""></path></svg>
-                            </span>
-                            Unit Tests <span className={style.slash}>/</span> StoryBook</li>
-                        <li className={style.my_skillsItem_circle}>
-                             <span className={style.my_skillsItem_circleImg}>
-                                <svg aria-hidden="true" focusable="false"
-                                     data-prefix="far"
-                                     data-icon="check-circle" role="img"
-                                     xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 512 512"
-                                     className="svg-inline--fa fa-check-circle fa-w-16 fa-5x"><path
-                                    fill="currentColor"
-                                    d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"
-                                    className=""></path></svg>
-                            </span>
-                            Material UI <span className={style.slash}>/</span> Ant Design</li>
-                        <li className={style.my_skillsItem_circle}>
-                             <span className={style.my_skillsItem_circleImg}>
-                                <svg aria-hidden="true" focusable="false"
-                                     data-prefix="far"
-                                     data-icon="check-circle" role="img"
-                                     xmlns="http://www.w3.org/2000/svg"
-                                     viewBox="0 0 512 512"
-                                     className="svg-inline--fa fa-check-circle fa-w-16 fa-5x"><path
-                                    fill="currentColor"
-                                    d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 48c110.532 0 200 89.451 200 200 0 110.532-89.451 200-200 200-110.532 0-200-89.451-200-200 0-110.532 89.451-200 200-200m140.204 130.267l-22.536-22.718c-4.667-4.705-12.265-4.736-16.97-.068L215.346 303.697l-59.792-60.277c-4.667-4.705-12.265-4.736-16.97-.069l-22.719 22.536c-4.705 4.667-4.736 12.265-.068 16.971l90.781 91.516c4.667 4.705 12.265 4.736 16.97.068l172.589-171.204c4.704-4.668 4.734-12.266.067-16.971z"
-                                    className=""></path></svg>
-                            </span>
-                            Git <span className={style.slash}>/</span> GitHub</li>
-                    </ul>
+            </div>
+
+            <div className={style.mySkills_Block}>
+                <div className={style.mySkills_item}>
+                    REACT / REDUX
+                </div>
+                <div className={style.mySkills_item}>
+                    JavaScript / TypeScript
+                </div>
+                <div className={style.mySkills_item}>
+                    HTML5 / CSS3
+                </div>
+                <div className={style.mySkills_item}>
+                    AXIOS / REST
+                </div>
+                <div className={style.mySkills_item}>
+                    Unit Tests / StoryBook
+                </div>
+
+                <div className={style.mySkills_item}>
+                    Material UI / Ant Design
+                </div>
+                <div className={style.mySkills_item}>
+                    Git / GitHub
                 </div>
             </div>
+
             <div className={style.resume_block}>
                 <div className={s.title_block}>
                     <div className={s.title_block_heading}>RESUME</div>
                     <div className={s.title_block_dash}></div>
                 </div>
-
                 <div className={style.workingExperience}>
                     <svg aria-hidden="true" focusable="false" data-prefix="far" data-icon="briefcase" role="img"
                          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"

@@ -6,6 +6,7 @@ import s from '../About-page/About.module.scss'
 
 export function Contact() {
     return (
+
         <div className={style.portfolioWrapper}>
             <div className={style.portfolioWrapper_container}>
                 <span className={s.line}></span>
@@ -82,6 +83,7 @@ export function Contact() {
                 </div>
             </div>
         </div>
+
     );
 }
 

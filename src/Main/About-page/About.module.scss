@@ -10,7 +10,7 @@
 .about_me {
   padding: 0 40px 50px 70px;
   height: 100%;
-  z-index: 999;
+  z-index: 50;
   position: relative;
   @media (max-width: 1330px) {
     padding: 0 40px 50px 40px;
@@ -35,11 +35,12 @@
   font-size: 3rem;
   line-height: 2.7rem;
   padding: 120px 0 20px 0;
+  z-index: 1;
   text-shadow: 50px 75px 0px rgba(41, 47, 64, 0.3), -1px -1px 0.5em rgb(143, 196, 229);
   @media (max-width: 800px) {
     font-size: 2rem;
     line-height: 2rem;
-    padding: 50px 0 20px 0;
+ //   padding: 50px 0 20px 0;
   }
   @media (max-width: 440px) {
     font-size: 1.7rem;
@@ -228,6 +229,7 @@
     font-family: Nunito, sans-serif;
     color: white;
     letter-spacing: 3px;
+    border-radius: 5px;
     @media (max-width: 1300px) {
       font-size: 15px;
     }
@@ -258,7 +260,7 @@
 
   .Services {
     padding: 0 70px 120px 70px;
-    z-index: 999;
+    z-index: 50;
     position: relative;
     @media (max-width: 1330px) {
       padding: 0 40px 30px 40px;

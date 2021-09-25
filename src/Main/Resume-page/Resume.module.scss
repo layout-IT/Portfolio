@@ -4,6 +4,7 @@
   height: 100%;
   position: relative;
   background-color: #131521;
+  z-index: 50;
   @media (max-width: 1000px) {
     padding: 0 10px 50px 10px;
   }
@@ -17,7 +18,6 @@
   position: absolute;
   top: 0;
   left: 0;
-
 
   &:nth-child(1) {
     top: 0;
@@ -40,185 +40,31 @@
   }
 }
 
-
-.my_skills {
-  height: 100%;
-  font-family: Nunito, sans-serif;
-  color: #fff;
-  font-weight: 600;
-  font-size: 30px;
+.mySkills_Block {
+  display: flex;
+  flex-wrap: wrap;
   position: relative;
+  z-index: 55;
+  @media (max-width: 450px){
+      justify-content: center;
+  }
 }
 
-.my_skillsItem_containers {
+.mySkills_item {
+  padding: 20px 30px;
+  margin: 10px 10px;
+  background:#037fff;
+  border-radius: 5px;
+  font-size: 20px;
+  @media (max-width: 800px){
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+
 
   &:last-child {
-    margin: 0;
+    margin-right: 0;
   }
-
-  &:nth-child(3) {
-    top: 40px;
-  }
-}
-
-
-.my_skillsItem_circle {
-  font-family: Nunito, sans-serif;
-  font-weight: 600;
-  font-size: 30px;
-  position: relative;
-  margin: 0 0 25px 0px;
-  letter-spacing: 4px;
-  transition: all 0.3s ease;
-
-  &:nth-child(1) {
-    animation: anime 1s linear;
-
-    span {
-      svg {
-        path {
-          fill: #0090e3
-        }
-
-        animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 0s;
-      }
-    }
-  }
-
-  &:nth-child(2) {
-    animation: anime 2s linear;
-
-    span {
-      svg {
-        path {
-          fill: #0090e3
-        }
-
-        animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 1s;
-      }
-    }
-  }
-
-  &:nth-child(3) {
-    animation: anime 3s linear;
-
-    span {
-      svg {
-        path {
-          fill: #0090e3
-        }
-
-        animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 2s;
-      }
-    }
-  }
-
-  &:nth-child(4) {
-    animation: anime 4s linear;
-
-    span {
-      svg {
-        path {
-          fill: #0090e3
-        }
-
-        animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 3s;
-      }
-    }
-  }
-
-  &:nth-child(5) {
-    animation: anime 5s linear;
-
-    span {
-      svg {
-        path {
-          fill: #0090e3
-        }
-
-        animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 4s;
-      }
-    }
-  }
-
-  &:nth-child(6) {
-    animation: anime 6s linear;
-
-    span {
-      svg {
-        path {
-          fill: #0090e3
-        }
-
-        animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 5s;
-      }
-
-    }
-
-  }
-
-  &:nth-child(7) {
-    animation: anime 7s linear;
-
-    span {
-      svg {
-        path {
-          fill: #0090e3
-        }
-
-        animation: roll-in-blurred-left 1s cubic-bezier(0.230, 1.000, 0.320, 1.000) both 6s;
-      }
-    }
-  }
-}
-
-@keyframes anime {
-  0% {
-    color: #868c9c;
-    opacity: 0;
-
-  }
-  90% {
-    color: #868c9c;
-    opacity: 0.3;
-
-  }
-  100% {
-    color: #0090e3;
-
-  }
-}
-
-.my_skillsItem_circleImg {
-  margin-right: 15px;
-
-  svg {
-    width: 30px;
-  }
-}
-
-
-@keyframes roll-in-blurred-left {
-  0% {
-    -webkit-transform: translateX(-1000px) rotate(-720deg);
-    transform: translateX(-1000px) rotate(-720deg);
-    -webkit-filter: blur(20px);
-    filter: blur(20px);
-    opacity: 0;
-  }
-
-  100% {
-    -webkit-transform: translateX(0) rotate(360deg);
-    transform: translateX(0) rotate(360deg);
-    -webkit-filter: blur(0);
-    filter: blur(0);
-    opacity: 1;
-  }
-}
-
-.slash {
-  color: #0090e3;
-
 }
 
 
