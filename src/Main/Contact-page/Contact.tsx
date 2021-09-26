@@ -56,8 +56,8 @@ export function Contact() {
                             </div>
                             <div className={style.contactMe_Block}>
                                 <div className={style.contactMe_Title}>Email</div>
-                                <div className={style.contactMe_subtitle1}>admin.sitename@example.com</div>
-                                <div className={style.contactMe_subtitle1}>info.sitename@example.com</div>
+                                <div className={style.contactMe_subtitle1}>admin@example.com</div>
+                                <div className={style.contactMe_subtitle1}>info@example.com</div>
                             </div>
                         </div>
                     </div>
