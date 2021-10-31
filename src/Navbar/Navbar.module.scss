@@ -1,5 +1,6 @@
 
 .WrapperFAlse {
+
   position: fixed;
   background-color: #1c2032;
   //width: 17%;
@@ -19,7 +20,7 @@
 }
 
 .Wrapper {
-  overflow: auto;
+ // overflow: auto;
   position: fixed;
   background-color: #1c2032;
   //width: 17%;
@@ -194,6 +195,7 @@ img {
 
 
 .icon_menuFalse {
+
   span {
     transform: scale(0);
     transition: all 1s ease 0s;

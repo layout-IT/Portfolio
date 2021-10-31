@@ -41,7 +41,7 @@ export function Navbar(props: NavbarType) {
 
         <div className={s.items}>
             <NavLink onClick={() => {
-                props.setActive(!props.active)
+                closeMenu()
             }} to={'/home'} aria-current={true}
                      activeClassName={s.ChangeColorOnBlue} className={s.item}>
                 <span className={s.item_link}>HOME</span>
