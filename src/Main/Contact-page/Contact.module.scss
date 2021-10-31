@@ -108,6 +108,12 @@
   font-size: 23px;
   margin-bottom: 20px;
   flex-wrap: wrap;
+  @media (max-width: 4100px){
+    font-size: 35px;
+  }
+  @media (max-width: 2000px){
+    font-size: 23px;
+  }
 }
 
 .contactMe_subtitle1 {
@@ -119,6 +125,13 @@
   flex-wrap: wrap;
   &:last-child {
     margin-bottom: 0;
+  }
+  @media (max-width: 4100px){
+    font-size: 35px;
+    line-height: 45px;
+  }
+  @media (max-width: 2000px){
+    font-size: 18px;
   }
 }
 

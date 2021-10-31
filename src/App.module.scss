@@ -93,7 +93,7 @@ h6 {
 }
 
 .Navbar{
-  flex: 0 1 0%;
+  flex: 0 1 20%;
   text-align: center;
   z-index: 55;
   position: relative;
@@ -110,7 +110,7 @@ h6 {
   background-color: #131521;
 
   @media (max-width: 1658px) {
-    flex: 0 1 19%;
+    flex: 0 1 10%;
   }
   @media (max-width: 1423px) {
     flex: 0 1 22%;
@@ -139,10 +139,10 @@ h6 {
   flex: 0 1 83%;
  // background-color: #131521;
   height: 100vh;
-
-  @media (max-width: 1658px) {
-    flex: 0 1 81%;
+  @media (min-width: 1423px) {
+    flex: 0 1 78%;
   }
+
   @media (max-width: 1423px) {
     flex: 0 1 78%;
   }
