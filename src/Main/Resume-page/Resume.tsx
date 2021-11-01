@@ -30,7 +30,7 @@ export function Resume() {
                     HTML5 / CSS3
                 </div>
                 <div className={style.mySkills_item}>
-                    AXIOS / REST
+                    AXIOS / REST API
                 </div>
                 <div className={style.mySkills_item}>
                     Unit Tests / StoryBook
@@ -65,11 +65,11 @@ export function Resume() {
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
                             <div className={style.listItemRight_text}>
-                                - React development using the. <br />
+                                - React development using the. <br/>
                                 - user interface libraries redux, react-redux, react-router-dom, redux thunk, axios,
-                                formik,Material UI. <br />
-                                - Creating login and registration forms. <br />
-                                - Working with Hook, TypeScript. <br />
+                                formik,Material UI. <br/>
+                                - Creating login and registration forms. <br/>
+                                - Working with Hook, TypeScript. <br/>
                                 - Cross-browser, adaptive development by CSS preprocessors.
                             </div>
                         </div>
@@ -78,11 +78,11 @@ export function Resume() {
                         <div className={style.listItemLeft}>2021</div>
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
-                            <div className={style.listItemRight_text}>- Layout according to the layout.  <br />
-                            - Pixel Perfect layout. <br />
-                                - Support for site pages. <br />
-                                - Layout of landing pages. <br />
-                                - Adaptive cross-browser optimized layout compatible with modern browsers. <br />
+                            <div className={style.listItemRight_text}>- Layout according to the layout. <br/>
+                                - Pixel Perfect layout. <br/>
+                                - Support for site pages. <br/>
+                                - Layout of landing pages. <br/>
+                                - Adaptive cross-browser optimized layout compatible with modern browsers. <br/>
                                 - Working with GitHub.
                             </div>
                         </div>
@@ -91,10 +91,10 @@ export function Resume() {
                         <div className={style.listItemLeft}>2016 - 2021</div>
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>IP Kuchkaskova</div>
-                            <div className={style.listItemRight_text}>- Logistics. <br />
-                                - Personnel management. <br />
-                                - Sending / receiving cargo from T.С. <br />
-                                - Cash collection. <br />
+                            <div className={style.listItemRight_text}>- Logistics. <br/>
+                                - Personnel management. <br/>
+                                - Sending / receiving cargo from T.С. <br/>
+                                - Cash collection. <br/>
                             </div>
                         </div>
                     </div>
@@ -129,7 +129,8 @@ export function Resume() {
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Course on layout from "Фрилансер по жизни"</div>
                             <div className={style.listItemRight_text}>
-                                <a className={style.Sertificate} href="https://fls.guru/certificate.html?Sergei_Makshakov_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#9223">Certificate</a><br/>
+                                <a className={style.Sertificate}
+                                   href="https://fls.guru/certificate.html?Sergei_Makshakov_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#9223">Certificate</a><br/>
                                 - HTML. <br/>
                                 - CSS (SCSS). <br/>
                                 - Gulp. <br/>
@@ -140,7 +141,8 @@ export function Resume() {
                     <div className={style.listItem}>
                         <div className={style.listItemLeft}>2009-2014</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Moscow Automobile and Road Institute (State Technical University) (MADI)
+                            <div className={style.listItemRight_title}>Moscow Automobile and Road Institute (State
+                                Technical University) (MADI)
                             </div>
                             <div className={style.listItemRight_text}>- Economist - Manager
                             </div>

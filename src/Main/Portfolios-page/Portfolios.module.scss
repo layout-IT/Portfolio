@@ -74,7 +74,6 @@
   }
 
 
-
 }
 
 .portfolio_item {
@@ -173,7 +172,8 @@
   }
 
 }
-.code{
+
+.code {
   color: #a1a1a1;
 }
 
@@ -184,7 +184,7 @@
   flex-wrap: wrap;
   line-height: 35px;
   @media (max-width: 1670px) {
-    font-size:18px;
+    font-size: 18px;
   }
   @media (max-width: 1000px) {
     font-size: 15px;

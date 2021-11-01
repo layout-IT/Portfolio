@@ -29,7 +29,7 @@ export function About() {
 
                     <div className={s.about_meBlockText}>
 
-                        <div className={s.about_meTitle}>My name is  <span className={s.servise_titleSpan}>Makshakov Sergei</span>
+                        <div className={s.about_meTitle}>My name is <span className={s.servise_titleSpan}>Makshakov Sergei</span>
                         </div>
                         <div className={s.about_meText}>Hello, I am a person who has a
                             strong passion for programming.
@@ -52,7 +52,8 @@ export function About() {
                                     <span className={s.about_meListTextSpan}>: Makshakov Sergei</span></li>
                                 <li className={s.about_meListText}><span className={s.about_meListTextSpan}>Country / city</span><span
                                     className={s.about_meListTextSpan}>: Russia, Cheboksary</span></li>
-                                <li className={s.about_meListText}><span className={s.about_meListTextSpan}>Language</span><span
+                                <li className={s.about_meListText}><span
+                                    className={s.about_meListTextSpan}>Language</span><span
                                     className={s.about_meListTextSpan}>: English: Pre-intermediate / in progress</span>
                                 </li>
                                 <li className={s.about_meListText}><span
@@ -61,7 +62,7 @@ export function About() {
                                 </li>
                             </ul>
                         </div>
-                        <a className={s.about_meUttonLink} target={'_blank'} href="https://yandex.ru">
+                        <a className={s.about_meUttonLink} href="../../assets/CV/CV.pdf" download={'Makshakov_Sergei_CV.pdf'}>
                             <button className={s.about_meButton}>
                                 Download CV
                             </button>
@@ -102,7 +103,8 @@ export function About() {
                             </svg>
                             <div className={s.Services_itemTitle}>Web development</div>
                             <div className={s.Services_itemStripe}></div>
-                            <p className={s.Services_itemText}>The layout of websites and landing pages is almost any with the use of java script code. </p>
+                            <p className={s.Services_itemText}>The layout of websites and landing pages is almost any
+                                with the use of java script code. </p>
                         </div>
                     </div>
 
@@ -117,7 +119,8 @@ export function About() {
                             </svg>
                             <div className={s.Services_itemTitle}>Adaptability</div>
                             <div className={s.Services_itemStripe}></div>
-                            <p className={s.Services_itemText}>Cross-browser compatibility, adaptability for mobile devices</p>
+                            <p className={s.Services_itemText}>Cross-browser compatibility, adaptability for mobile
+                                devices</p>
                         </div>
                     </div>
                 </div>

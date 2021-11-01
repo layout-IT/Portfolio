@@ -9,10 +9,10 @@ function App() {
     let [active, setActive] = useState(false)
     return (
         <div className={s.App}>
-            <div className={!active ? s.NavbarFalse :  s.Navbar}>
+            <div className={!active ? s.NavbarFalse : s.Navbar}>
                 <Navbar active={active} setActive={setActive}/>
             </div>
-            <div className={!active ? s.MainFalse : s.Main}> <Main/></div>
+            <div className={!active ? s.MainFalse : s.Main}><Main/></div>
 
         </div>
     );
