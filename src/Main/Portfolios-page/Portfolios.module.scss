@@ -162,6 +162,7 @@
   font-size: 35px;
   flex-wrap: wrap;
   font-weight: 600;
+  margin: auto;
 
   @media (max-width: 1670px) {
     font-size: 28px;
@@ -171,6 +172,9 @@
     margin-bottom: 10px;
   }
 
+}
+.code{
+  color: #a1a1a1;
 }
 
 .portfolioItem_subtitle {

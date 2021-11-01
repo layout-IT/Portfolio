@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {NavLink} from "react-router-dom";
 import s from './Navbar.module.scss'
-import photo from '../assets/images/WeAre.jpg'
+import photo from '../assets/images/Iam.jpg'
 import {useSelector} from "react-redux";
 
 type NavbarType = {

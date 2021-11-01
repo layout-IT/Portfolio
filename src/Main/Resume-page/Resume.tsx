@@ -125,9 +125,9 @@ export function Resume() {
                         </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>2016-2018</div>
+                        <div className={style.listItemLeft}>2021</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Course on layout from "Freelancer lifestyle"</div>
+                            <div className={style.listItemRight_title}>Course on layout from "Фрилансер по жизни"</div>
                             <div className={style.listItemRight_text}>- HTML. <br/>
                                 - CSS (SCSS). <br/>
                                 - Gulp. <br/>

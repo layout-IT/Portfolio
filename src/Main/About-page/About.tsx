@@ -29,7 +29,7 @@ export function About() {
 
                     <div className={s.about_meBlockText}>
 
-                        <div className={s.about_meTitle}>My name is  <span className={s.servise_titleSpan}>Макшаков Сергей</span>
+                        <div className={s.about_meTitle}>My name is  <span className={s.servise_titleSpan}>Makshakov Sergei</span>
                         </div>
                         <div className={s.about_meText}>Hello, I am a person who has a
                             strong passion for programming.
