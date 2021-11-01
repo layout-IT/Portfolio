@@ -62,7 +62,7 @@ export function About() {
                                 </li>
                             </ul>
                         </div>
-                        <a className={s.about_meUttonLink} href="../../assets/CV/CV.pdf" download={'Makshakov_Sergei_CV.pdf'}>
+                        <a className={s.about_meUttonLink} href="https://disk.yandex.ru/i/Lr3pxEQMUTp9sw" >
                             <button className={s.about_meButton}>
                                 Download CV
                             </button>
