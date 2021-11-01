@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import {NavLink} from "react-router-dom";
 import s from './Navbar.module.scss'
+import photo from '../assets/images/WeAre.jpg'
 import {useSelector} from "react-redux";
 
 type NavbarType = {
@@ -35,7 +36,7 @@ export function Navbar(props: NavbarType) {
         </div>
         <div className={s.Container}>
             <div className={s.photo}>
-                <img src='https://tf-react-chester.vercel.app/images/brand-image.jpg' alt="photo"/>
+                <img src={photo} alt="photo"/>
             </div>
         </div>
 
@@ -44,16 +45,16 @@ export function Navbar(props: NavbarType) {
                 closeMenu()
             }} to={'/home'} aria-current={true}
                      activeClassName={s.ChangeColorOnBlue} className={s.item}>
-                <span className={s.item_link}>HOME</span>
+                <span className={s.item_link}>Home</span>
             </NavLink>
             <NavLink onClick={() => closeMenu()} to={'/about'} activeClassName={s.ChangeColorOnBlue} className={s.item}><span
-                className={s.item_link}>ABOUT</span></NavLink>
+                className={s.item_link}>About me</span></NavLink>
             <NavLink onClick={() =>  closeMenu()} to={'/resume'} activeClassName={s.ChangeColorOnBlue} className={s.item}><span
-                className={s.item_link}>RESUME</span></NavLink>
+                className={s.item_link}>Resume</span></NavLink>
             <NavLink onClick={() =>  closeMenu()} to={'/portfolios'} activeClassName={s.ChangeColorOnBlue} className={s.item}><span
-                className={s.item_link}>PORTFOLIOS</span></NavLink>
+                className={s.item_link}>Portfolio</span></NavLink>
             <NavLink onClick={() =>  closeMenu()} to={'/contact'} activeClassName={s.ChangeColorOnBlue} className={s.item}><span
-                className={s.item_link}>CONTACT</span></NavLink>
+                className={s.item_link}>Contact</span></NavLink>
         </div>
 
         <div className={s.Footer}>© 2021 NuclearThemes</div>

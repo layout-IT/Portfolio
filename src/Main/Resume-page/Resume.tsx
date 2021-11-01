@@ -61,35 +61,40 @@ export function Resume() {
                 </div>
                 <div className={style.list}>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>2018 - Present</div>
+                        <div className={style.listItemLeft}>2021 - Present</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Frontend Web Developer</div>
-                            <div className={style.listItemRight_text}>Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere
-                                exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum
-                                quasi. Molestiae, vel porro.
+                            <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
+                            <div className={style.listItemRight_text}>
+                                - React development using the. <br />
+                                - user interface libraries redux, react-redux, react-router-dom, redux thunk, axios,
+                                formik,Material UI. <br />
+                                - Creating login and registration forms. <br />
+                                - Working with Hook, TypeScript. <br />
+                                - Cross-browser, adaptive development by CSS preprocessors.
                             </div>
                         </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>2016-2018</div>
+                        <div className={style.listItemLeft}>2021</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Frontend Web Developer</div>
-                            <div className={style.listItemRight_text}>Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere
-                                exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum
-                                quasi. Molestiae, vel porro.
+                            <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
+                            <div className={style.listItemRight_text}>- Layout according to the layout.  <br />
+                            - Pixel Perfect layout. <br />
+                                - Support for site pages. <br />
+                                - Layout of landing pages. <br />
+                                - Adaptive cross-browser optimized layout compatible with modern browsers. <br />
+                                - Working with GitHub.
                             </div>
                         </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>2014-2016</div>
+                        <div className={style.listItemLeft}>2016 - 2021</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>UI/UX Designer</div>
-                            <div className={style.listItemRight_text}>Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere
-                                exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum
-                                quasi. Molestiae, vel porro.
+                            <div className={style.listItemRight_title}>IP Kuchkaskova</div>
+                            <div className={style.listItemRight_text}>- Logistics. <br />
+                                - Personnel management. <br />
+                                - Sending / receiving cargo from T.С. <br />
+                                - Cash collection. <br />
                             </div>
                         </div>
                     </div>
@@ -110,36 +115,32 @@ export function Resume() {
                 </div>
                 <div className={style.list}>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>2018 - Present</div>
+                        <div className={style.listItemLeft}>2021</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Master of Science</div>
-                            <div className={style.listItemRight_text}>Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere
-                                exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum
-                                quasi. Molestiae, vel porro.
+                            <div className={style.listItemRight_title}>IT-INCUBATOR</div>
+                            <div className={style.listItemRight_text}>Front-end developer (React, Redux, JS, TS) . <br/>
+                                Learning React, Redux, TypeScript, Promise, Axios.,
+                                REST API, GET, immutable.js, Heroku, Material UI,And Design, StoryBook, TD, teamwork.
                             </div>
                         </div>
                     </div>
                     <div className={style.listItem}>
                         <div className={style.listItemLeft}>2016-2018</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Bachelor of Science</div>
-                            <div className={style.listItemRight_text}>Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere
-                                exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum
-                                quasi. Molestiae, vel porro.
+                            <div className={style.listItemRight_title}>Course on layout from "Freelancer lifestyle"</div>
+                            <div className={style.listItemRight_text}>- HTML. <br/>
+                                - CSS (SCSS). <br/>
+                                - Gulp. <br/>
+                                - основы JS.
                             </div>
                         </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>2014-2016</div>
+                        <div className={style.listItemLeft}>2009-2014</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Higher Schoold Graduation
+                            <div className={style.listItemRight_title}>Moscow Automobile and Road Institute (State Technical University) (MADI)
                             </div>
-                            <div className={style.listItemRight_text}>Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere
-                                exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum
-                                quasi. Molestiae, vel porro.
+                            <div className={style.listItemRight_text}>- Economist - Manager
                             </div>
                         </div>
                     </div>
