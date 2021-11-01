@@ -62,7 +62,7 @@ export function About() {
                                 </li>
                             </ul>
                         </div>
-                        <a className={s.about_meUttonLink} href="https://disk.yandex.ru/i/Lr3pxEQMUTp9sw" >
+                        <a className={s.about_meUttonLink} target={'_blank'} href="https://disk.yandex.ru/d/HoSkFRoukOdNAQ" >
                             <button className={s.about_meButton}>
                                 Download CV
                             </button>
