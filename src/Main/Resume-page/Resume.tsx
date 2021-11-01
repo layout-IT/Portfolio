@@ -128,7 +128,9 @@ export function Resume() {
                         <div className={style.listItemLeft}>2021</div>
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Course on layout from "Фрилансер по жизни"</div>
-                            <div className={style.listItemRight_text}>- HTML. <br/>
+                            <div className={style.listItemRight_text}>
+                                <a className={style.Sertificate} href="https://fls.guru/certificate.html?Sergei_Makshakov_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#9223">Certificate</a><br/>
+                                - HTML. <br/>
                                 - CSS (SCSS). <br/>
                                 - Gulp. <br/>
                                 - основы JS.
