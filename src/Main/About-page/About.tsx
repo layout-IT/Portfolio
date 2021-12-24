@@ -119,8 +119,7 @@ export function About() {
                             </svg>
                             <div className={s.Services_itemTitle}>Adaptability</div>
                             <div className={s.Services_itemStripe}></div>
-                            <p className={s.Services_itemText}>Adaptive layout for mobile devices
-                                devices</p>
+                            <p className={s.Services_itemText}>Adaptive layout for mobile devices.</p>
                         </div>
                     </div>
                 </div>
