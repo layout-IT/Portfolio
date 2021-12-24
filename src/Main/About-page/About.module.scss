@@ -259,7 +259,7 @@
 
 
 .about_meButton {
-  transition: all 0.3s ease;
+  transition: all 0.1s ease;
   background-color: #037fff;
   padding: 20px 40px;
   font-size: 25px;
@@ -267,6 +267,7 @@
   color: white;
   letter-spacing: 3px;
   border-radius: 5px;
+  box-shadow: 5px 10px 10px rgba(3, 127, 255, 0.65);
   @media (max-width: 1300px) {
     font-size: 15px;
   }
@@ -280,7 +281,9 @@
   }
 
   &:active {
+    position: relative;
     box-shadow: 5px 10px 10px rgba(3, 127, 255, 0.65);
+    top: 2px;
   }
 }
 

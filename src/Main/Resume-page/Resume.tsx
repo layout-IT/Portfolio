@@ -4,7 +4,7 @@ import s from "../About-page/About.module.scss";
 import style from './Resume.module.scss'
 import circl from '../../assets/images/circle.png'
 
-export function Resume() {
+export function Resume () {
     return (
         <div className={style.wrapperResume}>
             <span className={s.line}></span>
@@ -33,11 +33,11 @@ export function Resume() {
                     AXIOS / REST API
                 </div>
                 <div className={style.mySkills_item}>
-                    Unit Tests / StoryBook
+                    Tests / StoryBook
                 </div>
 
                 <div className={style.mySkills_item}>
-                    Material UI / Ant Design
+                    Material UI
                 </div>
                 <div className={style.mySkills_item}>
                     Git / GitHub
@@ -119,8 +119,8 @@ export function Resume() {
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>IT-INCUBATOR</div>
                             <div className={style.listItemRight_text}>Front-end developer (React, Redux, JS, TS) . <br/>
-                                Learning React, Redux, TypeScript, Promise, Axios.,
-                                REST API, GET, immutable.js, Heroku, Material UI,And Design, StoryBook, TD, teamwork.
+                                Learning React, Redux, TypeScript, Promise, Axios,
+                                REST API, GET, Heroku, Material UI, StoryBook, TD, teamwork.
                             </div>
                         </div>
                     </div>

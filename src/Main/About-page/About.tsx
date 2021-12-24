@@ -89,7 +89,7 @@ export function About() {
                             </svg>
                             <div className={s.Services_itemTitle}>Front-end development</div>
                             <div className={s.Services_itemStripe}></div>
-                            <p className={s.Services_itemText}>Application development using new technologies.</p>
+                            <p className={s.Services_itemText}>Development of web applications using the Redux library and TypeScript language</p>
                         </div>
                     </div>
                     <div className={s.Services_column}>
@@ -103,8 +103,8 @@ export function About() {
                             </svg>
                             <div className={s.Services_itemTitle}>Web development</div>
                             <div className={s.Services_itemStripe}></div>
-                            <p className={s.Services_itemText}>The layout of websites and landing pages is almost any
-                                with the use of java script code. </p>
+                            <p className={s.Services_itemText}>Website layout using css preprocessor and
+                                interaction with DOM using JavaScript programming language. </p>
                         </div>
                     </div>
 
@@ -119,7 +119,7 @@ export function About() {
                             </svg>
                             <div className={s.Services_itemTitle}>Adaptability</div>
                             <div className={s.Services_itemStripe}></div>
-                            <p className={s.Services_itemText}>Cross-browser compatibility, adaptability for mobile
+                            <p className={s.Services_itemText}>Adaptive layout for mobile devices
                                 devices</p>
                         </div>
                     </div>

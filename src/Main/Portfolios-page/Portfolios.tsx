@@ -1,6 +1,6 @@
 import React from "react";
 import Alpine from '../../assets/images/Alpine.png'
-import Counter from '../../assets/images/Counter.png'
+import Freelance from '../../assets/images/Freelance.png'
 import Frispes from '../../assets/images/Frispes.png'
 import Nasscorp from '../../assets/images/Nasscorp.png'
 import SocialNetwork from '../../assets/images/social_network.png'
@@ -57,13 +57,13 @@ export function Portfolios() {
                         </div>
                         <div className={style.portfolio_colums}>
                             <div className={style.portfolio_item}>
-                                <a className={style.portfolioItem_img} href={'https://layout-it.github.io/counter/'}
+                                <a className={style.portfolioItem_img} href={'https://layout-it.github.io/Project/'}
                                    target={'_blank'}>
-                                    <img src={Counter} alt="photo"/>
+                                    <img src={Freelance} alt="photo"/>
                                 </a>
-                                <div className={style.portfolioItem_title}>Counter</div>
+                                <div className={style.portfolioItem_title}>Freelance project</div>
                                 <div className={style.portfolioItem_subtitle}><a className={style.code}
-                                                                                 href="https://github.com/layout-IT/counter">Code</a>
+                                                                                 href="https://github.com/layout-IT/Project">Code</a>
                                 </div>
 
                             </div>
