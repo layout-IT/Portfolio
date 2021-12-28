@@ -66,11 +66,10 @@ export function Resume () {
                             <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
                             <div className={style.listItemRight_text}>
                                 - React development using the. <br/>
-                                - user interface libraries redux, react-redux, react-router-dom, redux thunk, axios,
-                                formik,Material UI. <br/>
+                                - user interface libraries redux, react-redux, react-router-dom, redux thunk, axios,Material UI. <br/>
                                 - Creating login and registration forms. <br/>
                                 - Working with Hook, TypeScript. <br/>
-                                - Cross-browser, adaptive development by CSS preprocessors.
+                                - Adaptive development by CSS preprocessors.
                             </div>
                         </div>
                     </div>
@@ -120,7 +119,7 @@ export function Resume () {
                             <div className={style.listItemRight_title}>IT-INCUBATOR</div>
                             <div className={style.listItemRight_text}>Front-end developer (React, Redux, JS, TS) . <br/>
                                 Learning React, Redux, TypeScript, Promise, Axios,
-                                REST API, GET, Heroku, Material UI, StoryBook, TD, teamwork.
+                                REST API, Heroku, Material UI, StoryBook, TD, teamwork.
                             </div>
                         </div>
                     </div>
