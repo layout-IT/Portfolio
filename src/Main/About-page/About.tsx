@@ -89,7 +89,7 @@ export function About() {
                             </svg>
                             <div className={s.Services_itemTitle}>Front-end development</div>
                             <div className={s.Services_itemStripe}></div>
-                            <p className={s.Services_itemText}>Development of web applications using the Redux library and TypeScript language</p>
+                            <p className={s.Services_itemText}>Development of web applications using the React library and TypeScript language</p>
                         </div>
                     </div>
                     <div className={s.Services_column}>
