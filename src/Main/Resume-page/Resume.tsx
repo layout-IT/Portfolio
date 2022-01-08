@@ -65,10 +65,12 @@ export function Resume () {
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
                             <div className={style.listItemRight_text}>
-                                - React development using the user interface libraries redux, <br/> react-redux, react-router-dom, redux thunk, axios,Material UI. <br/>
-                                - Creating login and registration forms. <br/>
-                                - Working with Hook, TypeScript. <br/>
-                                - Adaptive development by CSS preprocessors.
+                                Development using git, TypeScript, hooks, React, Redux, react-redux, react-router-dom,
+                                redux thunk, axios libraries. Layout of pages according to the layout using the CSS
+                                preprocessor.
+                                Tasks: layout and writing logic, requests to the server of pages Sign In, Forgot
+                                Password, Sign Up, search fields, adding, sorting, deleting data by clicking on a button
+                                with a pop-up modal window. Work in a team of 3 people.
                             </div>
                         </div>
                     </div>
