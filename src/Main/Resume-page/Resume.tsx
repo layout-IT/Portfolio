@@ -65,8 +65,7 @@ export function Resume () {
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
                             <div className={style.listItemRight_text}>
-                                - React development using the. <br/>
-                                - user interface libraries redux, react-redux, react-router-dom, redux thunk, axios,Material UI. <br/>
+                                - React development using the user interface libraries redux, <br/> react-redux, react-router-dom, redux thunk, axios,Material UI. <br/>
                                 - Creating login and registration forms. <br/>
                                 - Working with Hook, TypeScript. <br/>
                                 - Adaptive development by CSS preprocessors.
