@@ -81,7 +81,7 @@ export function Resume () {
                                 - Pixel Perfect layout. <br/>
                                 - Support for site pages. <br/>
                                 - Layout of landing pages. <br/>
-                                - Adaptive cross-browser optimized layout compatible with modern browsers. <br/>
+                                - Adaptive optimized layout. <br/>
                                 - Working with GitHub.
                             </div>
                         </div>
@@ -133,7 +133,7 @@ export function Resume () {
                                 - HTML. <br/>
                                 - CSS (SCSS). <br/>
                                 - Gulp. <br/>
-                                - основы JS.
+                                - JS Basics.
                             </div>
                         </div>
                     </div>
