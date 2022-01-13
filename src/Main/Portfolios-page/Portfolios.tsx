@@ -61,7 +61,7 @@ export function Portfolios() {
                                    target={'_blank'}>
                                     <img src={Freelance} alt="photo"/>
                                 </a>
-                                <div className={style.portfolioItem_title}>Freelance project</div>
+                                <div className={style.portfolioItem_title}>My part of the freelance project</div>
                                 <div className={style.portfolioItem_subtitle}><a className={style.code}
                                                                                  href="https://github.com/layout-IT/Project">Code</a>
                                 </div>
