@@ -61,7 +61,7 @@ export function Resume () {
                 </div>
                 <div className={style.list}>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>Freelance November 2021 - Present</div>
+                        <div className={style.listItemLeft}>Freelance August 2021 - Present</div>
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
                             <div className={style.listItemRight_text}>
