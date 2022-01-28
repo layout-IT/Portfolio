@@ -1,8 +1,10 @@
 import React from "react";
 import s from './About.module.scss';
-import photo from '../../assets/images/WeAre.jpg'
+import cv from '../../assets/CV/MakshakovCV.jpg';
+import photo from '../../assets/images/WeAre.jpg';
 
 export function About() {
+
     return (
         <div className={s.mainWrapper}>
 
@@ -62,7 +64,7 @@ export function About() {
                                 </li>
                             </ul>
                         </div>
-                        <a className={s.about_meUttonLink} target={'_blank'} href="https://disk.yandex.ru/i/VVrVxC0vaXv-Yw" >
+                        <a className={s.about_meUttonLink} target={'_blank'} href={cv}  download>
                             <button className={s.about_meButton}>
                                 Download CV
                             </button>

@@ -1,8 +1,7 @@
-import React, {useState} from "react";
+import React from "react";
 import {NavLink} from "react-router-dom";
 import s from './Navbar.module.scss'
-import photo from '../assets/images/Iam.png'
-import {useSelector} from "react-redux";
+import photo from '../assets/images/iam.png'
 
 type NavbarType = {
     active: boolean
