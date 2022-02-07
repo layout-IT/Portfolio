@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Resume/static/css/main.b4f44ef2.chunk.css",
-    "main.js": "/Resume/static/js/main.394dc60d.chunk.js",
-    "main.js.map": "/Resume/static/js/main.394dc60d.chunk.js.map",
+    "main.js": "/Resume/static/js/main.f6a4f32e.chunk.js",
+    "main.js.map": "/Resume/static/js/main.f6a4f32e.chunk.js.map",
     "runtime-main.js": "/Resume/static/js/runtime-main.5853d0b6.js",
     "runtime-main.js.map": "/Resume/static/js/runtime-main.5853d0b6.js.map",
     "static/js/2.0ca59938.chunk.js": "/Resume/static/js/2.0ca59938.chunk.js",
@@ -15,7 +15,7 @@
     "static/media/Alpine.a25f3d4b.png": "/Resume/static/media/Alpine.a25f3d4b.png",
     "static/media/Freelance.42004a97.png": "/Resume/static/media/Freelance.42004a97.png",
     "static/media/Frispes.a334d67e.png": "/Resume/static/media/Frispes.a334d67e.png",
-    "static/media/MakshakovCV.aff196f6.jpg": "/Resume/static/media/MakshakovCV.aff196f6.jpg",
+    "static/media/MakshakovCV.25e8b4a8.jpg": "/Resume/static/media/MakshakovCV.25e8b4a8.jpg",
     "static/media/Nasscorp.a41466cb.png": "/Resume/static/media/Nasscorp.a41466cb.png",
     "static/media/WeAre.a7d4eaac.jpg": "/Resume/static/media/WeAre.a7d4eaac.jpg",
     "static/media/iam.b4666047.png": "/Resume/static/media/iam.b4666047.png",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.5853d0b6.js",
     "static/js/2.0ca59938.chunk.js",
     "static/css/main.b4f44ef2.chunk.css",
-    "static/js/main.394dc60d.chunk.js"
+    "static/js/main.f6a4f32e.chunk.js"
   ]
 }
