@@ -61,9 +61,9 @@ export function Resume () {
                 </div>
                 <div className={style.list}>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>From January 2021 - Present</div>
+                        <div className={style.listItemLeft}>From June 2021 - Present</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Frontend Web Developer</div>
+                            <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
                             <div className={style.listItemRight_text}>
                                 Development using git, TypeScript, hooks, React, Redux, react-redux, react-router-dom,
                                 redux thunk, axios libraries. Layout of pages according to the layout using the CSS
@@ -75,7 +75,7 @@ export function Resume () {
                         </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>Freelance April - August 2021</div>
+                        <div className={style.listItemLeft}>Freelance March - July  2021</div>
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
                             <div className={style.listItemRight_text}>- Layout according to the layout. <br/>
