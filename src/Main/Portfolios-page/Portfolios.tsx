@@ -95,8 +95,8 @@ export function Portfolios() {
                                    target={'_blank'}>
                                     <img src={GSIron} alt="photo"/>
                                 </a>
-                                <div className={style.portfolioItem_title}>React, MobX, TypeScript, MUI,
-                                    React-dom, React-router-dom, Css-modules, Scss, Thunk, Axios. ...in progress</div>
+                                <div className={style.portfolioItem_title}>React, Redux, TypeScript, MUI,
+                                    React-dom, React-router-dom, React-redux, Css-modules, Scss, Thunk, Axios. ...in progress</div>
                                 <div className={style.portfolioItem_subtitle}><a className={style.code}
                                                                                  href="https://github.com/layout-IT/Gs_iron">Code</a>
                                 </div>
@@ -109,7 +109,7 @@ export function Portfolios() {
                                    target={'_blank'}>
                                     <img src={Calculator} alt="photo"/>
                                 </a>
-                                <div className={style.portfolioItem_title}>React, Redux, TypeScript, Css-modules, Scss, React-dom</div>
+                                <div className={style.portfolioItem_title}>React, Mobx-react-lite, TypeScript, Css-modules, Scss</div>
                                 <div className={style.portfolioItem_subtitle}><a className={style.code}
                                                                                  href="https://github.com/layout-IT/Calculator">Code</a>
                                 </div>
