@@ -14,10 +14,7 @@ export function Home() {
                 <span className={s.line}></span>
                 <span className={s.line}></span>
                 <div className={s.wrapperContainer_items}>
-
-
                     <h1 className={s.title}>Hi, I am <span className={s.name}>Makshakov Sergei</span></h1>
-
                     <p className={s.text}>I am a front-end  developer.I have experience in creating SPA
                         with React/Redux/TypeScript. Also i front-end web developer. I can provide clean code and pixel perfect
                         design.I make website more & more interactive with web animations.</p>
