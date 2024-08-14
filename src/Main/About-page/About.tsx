@@ -33,19 +33,19 @@ export function About() {
 
                         <div className={s.about_meTitle}>My name is <span className={s.servise_titleSpan}>Makshakov Sergei</span>
                         </div>
-                        <div className={s.about_meText}>Hello, I am a person who has a
-                            strong passion for programming.
-                            I have experience in creating SPA
-                            with React/Redux/TypeScript.
-                            Now I am improving my skills in this
-                            direction and expanding them with
-                            new technologies.
-                            I'm planing to study Node.js,
-                            because my next focus is to become
-                            a Full-Stack Developer. And also I have an interest in web development.
-                            I spend my leisure time on Codewars
-                            or with educational books.
-                            Open for your suggestions.
+                        <div className={s.about_meText}>Hi! 🌟 I am a frontend developer on 💻 Redux, React-Redux, React-Router-Dom, Redux Thunk, Axios and Material UI. 🚀
+
+My specialty is creating attractive and intuitive interfaces based on your layouts. I am confident in layout layout and can provide Pixel Perfect results. 💯
+
+In addition, I am familiar with the power of React Hooks and TypeScript, and these tools allow me to create high-quality and scalable code. 🔧
+
+My main goal is to create user-friendly and adaptive spas so that users can start using your application without any problems. 📝
+
+Specializing in adaptive layout using Scss allows me to create modern, beautiful and functional interfaces that will look great on any device. 📱💻
+
+Teamwork is one of my strong qualities! I work professionally with other developers, designers and project managers to achieve common goals.
+
+I'm used to communicating and coordinating tasks.
                         </div>
                         <div className={s.about_meList}>
 

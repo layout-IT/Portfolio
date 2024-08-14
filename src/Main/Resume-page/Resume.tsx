@@ -1,8 +1,6 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
 import s from "../About-page/About.module.scss";
 import style from './Resume.module.scss'
-import circl from '../../assets/images/circle.png'
 
 export function Resume () {
     return (
@@ -57,44 +55,55 @@ export function Resume () {
                               d="M464 128h-80V80c0-26.51-21.49-48-48-48H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v256c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zM176 80h160v48H176V80zM54 176h404c3.31 0 6 2.69 6 6v74H48v-74c0-3.31 2.69-6 6-6zm404 256H54c-3.31 0-6-2.69-6-6V304h144v24c0 13.25 10.75 24 24 24h80c13.25 0 24-10.75 24-24v-24h144v122c0 3.31-2.69 6-6 6z"
                               className=""></path>
                     </svg>
-                    <div className={style.workingExperience_title}>Working Experience</div>
+                    <div className={style.workingExperience_title}>Work experience 3 years 9 months</div>
                 </div>
                 <div className={style.list}>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>From June 2021 - Present</div>
+                        <div className={style.listItemLeft}>March 2022 — August 2024</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
+                            <div className={style.listItemRight_title}>
+                                Front-end developer <br/>
+                                PizzaSoft Vologda LLC <br/>
+                                2 years 6 months <br/>
+                            </div>
                             <div className={style.listItemRight_text}>
-                                Development using git, TypeScript, hooks, React, Redux, react-redux, react-router-dom,
-                                redux thunk, axios libraries. Layout of pages according to the layout using the CSS
-                                preprocessor.
-                                Tasks: layout and writing logic, requests to the server of pages Sign In, Forgot
-                                Password, Sign Up, search fields, adding, sorting, deleting data by clicking on a button
-                                with a pop-up modal window. Work in a team of 3 people.
+                            Analytics, new functionality development, bug fixes, teamwork, scrum. React, Redux, axios, Thunk, React-Router-Dom, hooks, TypeScript, css, Gitlab, Docker.
                             </div>
                         </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>Freelance March - July  2021</div>
+                        <div className={style.listItemLeft}>January 2023 — August 2023</div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>Frontend Web Developer / Freelance</div>
-                            <div className={style.listItemRight_text}>- Layout according to the layout. <br/>
-                                - Pixel Perfect layout. <br/>
-                                - Support for site pages. <br/>
-                                - Layout of landing pages. <br/>
-                                - Adaptive optimized layout. <br/>
-                                - Working with GitHub.
+                            <div className={style.listItemRight_title}>
+                                IT-INCUBATOR <br/>
+                                it-incubator.io <br/> 
+                                Mentor (React, html/css) <br/>
+                                8 months
+                            </div>
+                            <div className={style.listItemRight_text}>Support of students at all levels of study related to the code in the front-end direction (bug fixes, refactoring, gh, etc.)
                             </div>
                         </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>2016 - 2021</div>
+                        <div className={style.listItemLeft}>December 2020 — March 2022
+                        </div>
                         <div className={style.listItemRight}>
-                            <div className={style.listItemRight_title}>IP Kuchkaskova</div>
-                            <div className={style.listItemRight_text}>- Logistics. <br/>
-                                - Personnel management. <br/>
-                                - Sending / receiving cargo from T.С. <br/>
-                                - Cash collection. <br/>
+                            <div className={style.listItemRight_title}>
+                                TechVision LLC <br/>
+                                Front-end developer <br/>
+                                1 year 4 months <br/>
+                            </div>
+                            <div className={style.listItemRight_text}>
+                                Development of SPA applications
+                                using
+                                user interface libraries: redux,
+                                react-redux, react-router-dom, redux thunk,
+                                axios, Material UI.
+                                Creating login and registration forms;
+                                Working with Hooks, TypeScript.
+                                Layout according to the layout.
+                                Pixel Perfect layout.
+                                Adaptive layout with Scss
                             </div>
                         </div>
                     </div>
