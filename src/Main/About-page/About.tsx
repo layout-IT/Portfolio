@@ -66,7 +66,7 @@ I'm used to communicating and coordinating tasks.
                         </div>
                         <a className={s.about_meUttonLink} target={'_blank'} href={cv}  download>
                             <button className={s.about_meButton}>
-                                Download CV
+                                Download CVwsws
                             </button>
                         </a>
                     </div>
