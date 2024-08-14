@@ -62,8 +62,8 @@ export function Resume () {
                         <div className={style.listItemLeft}>March 2022 — August 2024</div>
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>
-                                Front-end developer <br/>
                                 PizzaSoft Vologda LLC <br/>
+                                Front-end developer <br/>
                                 2 years 6 months <br/>
                             </div>
                             <div className={style.listItemRight_text}>
