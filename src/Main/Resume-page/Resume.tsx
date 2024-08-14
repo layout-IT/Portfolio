@@ -16,7 +16,6 @@ export function Resume () {
                     <div className={s.title_block_dash}></div>
                 </div>
             </div>
-
             <div className={style.mySkills_Block}>
                 <div className={style.mySkills_item}>
                     REACT / REDUX
@@ -25,7 +24,7 @@ export function Resume () {
                     JavaScript / TypeScript
                 </div>
                 <div className={style.mySkills_item}>
-                    HTML5 / CSS3
+                    HTML5 / CSS3 / Scss / Sass
                 </div>
                 <div className={style.mySkills_item}>
                     AXIOS / REST API
@@ -38,7 +37,22 @@ export function Resume () {
                     Material UI
                 </div>
                 <div className={style.mySkills_item}>
-                    Git / GitHub
+                    Git / GitHub / Gitlab
+                </div>
+                <div className={style.mySkills_item}>
+                    JavaScript
+                </div>
+                <div className={style.mySkills_item}>
+                    WebSocket
+                </div>
+                <div className={style.mySkills_item}>
+                    npm / yarn
+                </div>
+                <div className={style.mySkills_item}>
+                    БЭМ
+                </div>
+                <div className={style.mySkills_item}>
+                    Docker
                 </div>
             </div>
 
