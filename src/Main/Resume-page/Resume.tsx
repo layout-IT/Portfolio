@@ -54,6 +54,9 @@ export function Resume () {
                 <div className={style.mySkills_item}>
                     Docker
                 </div>
+                <div className={style.mySkills_item}>
+                    Scrum
+                </div>
             </div>
 
             <div className={style.resume_block}>
