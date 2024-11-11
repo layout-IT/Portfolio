@@ -16,48 +16,48 @@ export function Resume () {
                     <div className={s.title_block_dash}></div>
                 </div>
             </div>
-            <div className={style.mySkills_Block}>
-                <div className={style.mySkills_item}>
+            <ul className={style.mySkills_Block}>
+                <li className={style.mySkills_item}>
                     REACT / REDUX
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     JavaScript / TypeScript
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     HTML5 / CSS3 / Scss / Sass
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     AXIOS / REST API
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     Tests / StoryBook
-                </div>
+                </li>
 
-                <div className={style.mySkills_item}>
+                <li className={style.mySkills_item}>
                     Material UI
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     Git / GitHub / Gitlab
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     JavaScript
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     WebSocket
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     npm / yarn
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     БЭМ
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     Docker
-                </div>
-                <div className={style.mySkills_item}>
+                </li>
+                <li className={style.mySkills_item}>
                     Scrum
-                </div>
-            </div>
+                </li>
+            </ul>
 
             <div className={style.resume_block}>
                 <div className={s.title_block}>
@@ -83,9 +83,18 @@ export function Resume () {
                                 Front-end developer <br/>
                                 2 years 6 months <br/>
                             </div>
-                            <div className={style.listItemRight_text}>
-                            Analytics, new functionality development, bug fixes, teamwork, scrum. React, Redux, axios, Thunk, React-Router-Dom, hooks, TypeScript, css, Gitlab, Docker.
-                            </div>
+                            <ul className={style.listItemRight_text}>
+                            <li>-Teamwork</li>
+                            <li>-Participated in projects using Scrum methodologies as a management approach</li>
+                            <li>-Analytics</li>
+                            <li>-Development of new functionality</li>
+                            <li>-Timely detection and elimination of errors</li>
+                            <li>-The review code</li>
+                            </ul>
+                            <span className={style.listItemRight_title}>Technology stack:</span> 
+                            <div className={style.listItemRight_text}> React 15-18, Redux, axios, Thunk, React-Router-Dom, hooks, TypeScript, Scss, CSS Modules Gitlab,
+                                Docker. Jest, Jest-cli, Lodash, Webpack, Bwip-js, Moment-timezone, Prop-types, Eslint, CoffeeScript , Backbone, Reselect</div>
+
                         </div>
                     </div>
                     <div className={style.listItem}>
