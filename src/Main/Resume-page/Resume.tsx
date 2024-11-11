@@ -93,9 +93,9 @@ export function Resume () {
                             </ul>
                             <span className={style.listItemRight_title}>Technology stack:</span> 
                             <div className={style.listItemRight_text}> React 15-18, Redux, axios, Thunk, React-Router-Dom, hooks, TypeScript, Scss, CSS Modules Gitlab,
-                                Docker. Jest, Jest-cli, Lodash, Webpack, Bwip-js, Moment-timezone, Prop-types, Eslint, CoffeeScript , Backbone, Reselect</div>
-
-                        </div>
+                                Docker. Jest, Jest-cli, Lodash, Webpack, Bwip-js, Moment-timezone, Prop-types, Eslint, CoffeeScript , Backbone, Reselect
+                            </div>
+                         </div>
                     </div>
                     <div className={style.listItem}>
                         <div className={style.listItemLeft}>January 2023 — August 2023</div>
