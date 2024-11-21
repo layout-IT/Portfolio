@@ -72,7 +72,7 @@ export function Resume () {
                               d="M464 128h-80V80c0-26.51-21.49-48-48-48H176c-26.51 0-48 21.49-48 48v48H48c-26.51 0-48 21.49-48 48v256c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V176c0-26.51-21.49-48-48-48zM176 80h160v48H176V80zM54 176h404c3.31 0 6 2.69 6 6v74H48v-74c0-3.31 2.69-6 6-6zm404 256H54c-3.31 0-6-2.69-6-6V304h144v24c0 13.25 10.75 24 24 24h80c13.25 0 24-10.75 24-24v-24h144v122c0 3.31-2.69 6-6 6z"
                               className=""></path>
                     </svg>
-                    <div className={style.workingExperience_title}>Work experience 3 years 9 months</div>
+                    <div className={style.workingExperience_title}>Work experience 4 years 6 months</div>
                 </div>
                 <div className={style.list}>
                     <div className={style.listItem}>
@@ -84,12 +84,12 @@ export function Resume () {
                                 2 years 6 months <br/>
                             </div>
                             <ul className={style.listItemRight_text}>
-                            <li>-Teamwork</li>
-                            <li>-Participated in projects using Scrum methodologies as a management approach</li>
-                            <li>-Analytics</li>
-                            <li>-Development of new functionality</li>
-                            <li>-Timely detection and elimination of errors</li>
-                            <li>-The review code</li>
+                                <li>-Teamwork</li>
+                                <li>-Participated in projects using Scrum methodologies as a management approach</li>
+                                <li>-Analytics</li>
+                                <li>-Development of new functionality</li>
+                                <li>-Timely detection and elimination of errors</li>
+                                <li>-The review code</li>
                             </ul>
                             <span className={style.listItemRight_title}>Technology stack:</span> 
                             <div className={style.listItemRight_text}> React 15-18, Redux, axios, Thunk, React-Router-Dom, hooks, TypeScript, Scss, CSS Modules Gitlab,
@@ -98,7 +98,7 @@ export function Resume () {
                          </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>January 2023 — August 2023</div>
+                        <div className={style.listItemLeft}>September 2021 — March 2022</div>
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>
                                 IT-INCUBATOR <br/>
@@ -111,7 +111,7 @@ export function Resume () {
                         </div>
                     </div>
                     <div className={style.listItem}>
-                        <div className={style.listItemLeft}>December 2020 — March 2022
+                        <div className={style.listItemLeft}>March 2020 — September 2022
                         </div>
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>
@@ -164,8 +164,6 @@ export function Resume () {
                         <div className={style.listItemRight}>
                             <div className={style.listItemRight_title}>Course on layout from "Фрилансер по жизни"</div>
                             <div className={style.listItemRight_text}>
-                                <a className={style.Sertificate}
-                                   href="https://fls.guru/certificate.html?Sergei_Makshakov_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9%20%D0%98%D0%B2%D0%B0%D0%BD%D0%BE%D0%B2%D0%B8%D1%87#9223">Certificate</a><br/>
                                 - HTML. <br/>
                                 - CSS (SCSS). <br/>
                                 - Gulp. <br/>
